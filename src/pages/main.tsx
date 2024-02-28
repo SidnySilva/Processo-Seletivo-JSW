@@ -1,10 +1,9 @@
 import { TableComponent } from "@/components/table/table";
-import { MainPage } from "@/pages/main";
 
-export default function Home() {
+export const MainPage = () => {
   return (
-    <main>
+    <>
       <TableComponent />
-    </main>
+    </>
   );
-}
+};
