@@ -1,8 +1,7 @@
 import { TableComponent } from "@/components/desktopTable/table";
 import { ListComponent } from "@/components/mobileList/list";
 
-export const MainPage = () => {
-
+const MainPage = () => {
   return (
     <>
       <div className="md:hidden">
@@ -14,3 +13,5 @@ export const MainPage = () => {
     </>
   );
 };
+
+export default MainPage;

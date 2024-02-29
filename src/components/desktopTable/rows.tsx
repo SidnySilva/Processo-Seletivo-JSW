@@ -23,7 +23,7 @@ export const RowComponent = ({
       <td className="px-4 py-1 text-base border-b border-gray-200 bg-white ">
         <div className="flex items-center">
           <div className="flex-shrink-0 w-20 h-20 2xl:w-30 2xl:h-30 ">
-            <img className="w-full h-full " src={src} alt={imgDesc} />
+            <img className="w-full h-full object-cover" src={src} alt={imgDesc} />
           </div>
           <div className="ml-3">
             <p className="text-gray-900 text-sm whitespace-no-wrap font-normal 2xl:text-lg">

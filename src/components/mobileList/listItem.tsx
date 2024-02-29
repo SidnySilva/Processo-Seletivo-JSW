@@ -22,7 +22,7 @@ export const ListItem = ({
   return (
     <li className="p-3 flex justify-between items-center user-card">
       <div className="flex items-center relative">
-        <img className="w-20 h-20 " src={src} alt={imgDesc} />
+        <img className="w-20 h-20 object-cover" src={src} alt={imgDesc} />
         <div
           className={`absolute top-0.5 left-0.5 text-white rounded-full ${
             status ? "bg-green-800" : "bg-red-800"
