@@ -1,9 +1,16 @@
-import { TableComponent } from "@/components/table/table";
+import { TableComponent } from "@/components/desktopTable/table";
+import { ListComponent } from "@/components/mobileList/list";
 
 export const MainPage = () => {
+
   return (
     <>
-      <TableComponent />
+      <div className="md:hidden">
+        <ListComponent />
+      </div>
+      <div className="hidden md:block">
+        <TableComponent />
+      </div>
     </>
   );
 };
